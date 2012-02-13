@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>this.fake_${1:ClassName} = jasmine.createSpyObj("fake_${1:ClassNane}",[${2:methods}]);
+spyOn(${1:ClassName}, "create").andReturn(this.fake_${1:ClassName});</string>
+	<key>name</key>
+	<string>fake create spy object</string>
+	<key>scope</key>
+	<string>source.js.jasmine</string>
+	<key>tabTrigger</key>
+	<string>fcso</string>
+	<key>uuid</key>
+	<string>189AB5A9-189E-4A50-9764-703CD85D1B61</string>
+</dict>
+</plist>
