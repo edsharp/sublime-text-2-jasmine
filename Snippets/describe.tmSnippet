@@ -5,6 +5,7 @@
 	<key>content</key>
 	<string>describe("${1:description}", function() {
   $0
+// end ${1:description}
 });</string>
 	<key>name</key>
 	<string>describe</string>

@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>this.fake_${1:ClassName} = jasmine.createSpy("fake_${1:ClassNane}");
-spyOn(${1:ClassName}, "create").andReturn(this.fake_${1:ClassName});</string>
+spyOn(isc.${1:ClassName}, "create").andReturn(this.fake_${1:ClassName});</string>
 	<key>name</key>
 	<string>fake create spy</string>
 	<key>scope</key>
